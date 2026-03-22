@@ -1,0 +1,36 @@
+# Git Commands to Push Assignment
+
+Now that all your assignment files have been created in the `/Users/Vraj/Downloads/Testing-Linux-and-Servers_Assignment-main` directory, please follow these commands to push them to your GitHub repository.
+
+1. **Open your MacOS Terminal** (not the Docker container) and navigate to the assignment directory:
+   ```bash
+   cd /Users/Vraj/Downloads/Testing-Linux-and-Servers_Assignment-main
+   ```
+
+2. **Initialize the Git repository**:
+   ```bash
+   git init
+   ```
+
+3. **Add all the files to the staging area** (This includes the Report, Terminal Outputs, and Setup Script):
+   ```bash
+   git add .
+   ```
+
+4. **Commit the changes** with a meaningful message:
+   ```bash
+   git commit -m "Completed System Monitoring, User Management, and Backup tasks"
+   ```
+
+5. **Link your local repository to your remote GitHub repository** (Replace `YOUR-USERNAME/YOUR-REPO-NAME` with your actual GitHub repository URL):
+   ```bash
+   git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+   ```
+
+6. **Push the code to GitHub**:
+   ```bash
+   git branch -M main
+   git push -u origin main
+   ```
+
+After pushing the code, you can share the GitHub URL as required in your Vlearn submission!
