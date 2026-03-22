@@ -1,4 +1,4 @@
-# Git Commands to Push Assignment
+
 
 Now that all your assignment files have been created in the `/Users/Vraj/Downloads/Testing-Linux-and-Servers_Assignment-main` directory, please follow these commands to push them to your GitHub repository.
 
@@ -33,4 +33,3 @@ Now that all your assignment files have been created in the `/Users/Vraj/Downloa
    git push -u origin main
    ```
 
-After pushing the code, you can share the GitHub URL as required in your Vlearn submission!
